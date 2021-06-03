@@ -9,6 +9,7 @@ function mostrarDatos(info) {
         const { name } = persona;
         const p = document.createElement("P");
         p.textContent = name
+        p.classList.add("personaje")
         lista.appendChild(p);
     });
 }
